@@ -1,4 +1,5 @@
 import './Header.css';
+//Este componente sirve para crear un Header
 function Header(){
     return (
         <header className="header">
