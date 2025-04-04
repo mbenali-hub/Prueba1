@@ -20,7 +20,7 @@ function ProductList () {
         }
         
         const data = await response.json();
-        
+        //Esto va a ser un cambio en git
         // Verificación adicional para asegurar que es un array
         if (Array.isArray(data)) {
             setProducts(data);
