@@ -1,0 +1,16 @@
+.header {
+    color: aqua;
+    display: flex; /* ¡Esto faltaba! */
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Viewport width en lugar de 100% */
+    min-width: 100%; /* Fallback */
+    background-color: white;
+    position: fixed; /* Opcional: para header fijo */
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 1rem; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye padding en el ancho */
+    z-index: 1000; /* Encima de otros elementos */
+}
